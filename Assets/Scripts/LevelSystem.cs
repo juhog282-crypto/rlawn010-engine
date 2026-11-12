@@ -11,5 +11,17 @@ public class LevelSystem : MonoBehaviour
         int level = 1;
         int exp = 0;
 
+        for (int i = 1; i <= expPerKill; i++)
+        {
+            exp += expPerKill;
+            while (exp >= 10000)
+            {
+                exp -= level * 10000;
+                level++;
+
+            }
+            Debug.Log("$레벨업 Lv {level} ({i}마리째)");
+        }
     }
+   
 }
