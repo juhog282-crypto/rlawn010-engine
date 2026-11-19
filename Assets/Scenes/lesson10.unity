@@ -287,11 +287,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 609062226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: adaf753189a00684bb185ba04710c9be, type: 3}
+  m_Script: {fileID: 11500000, guid: e193a06dea2732443a1f6bfa74e7135f, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::LevelSystem
-  expPerKill: 35000
-  killCount: 3
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson11
+  MonsterHps: 000000002300000000000000500000000c000000
 --- !u!1 &640853349
 GameObject:
   m_ObjectHideFlags: 0
